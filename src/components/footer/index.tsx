@@ -80,7 +80,7 @@ const Footer = () => {
             <img
               ref={iconGRefSp}
               className="footer-left-icon-content footer-icon-spacial"
-              src={Icon.facebookThin}
+              src={Icon.githubThin}
               alt="facebook"
             />
           </a>
@@ -96,7 +96,7 @@ const Footer = () => {
             <img
               ref={iconLRefSp}
               className="footer-left-icon-content footer-icon-spacial"
-              src={Icon.facebookThin}
+              src={Icon.linkedinThin}
               alt="facebook"
             />
           </a>
@@ -112,7 +112,7 @@ const Footer = () => {
             <img
               ref={iconTRefSp}
               className="footer-left-icon-content footer-icon-spacial"
-              src={Icon.facebookThin}
+              src={Icon.twitterThin}
               alt="facebook"
             />
           </a>
@@ -124,7 +124,9 @@ const Footer = () => {
         </li> */}
       </ul>
       <div className="footer-right">
-        <div className="footer-right-text">2022</div>
+        <div className="footer-right-text">
+          © 2022 All right reserved <span className="footer-right-subtext">NgocKhanh</span>
+        </div>
       </div>
     </div>
   );

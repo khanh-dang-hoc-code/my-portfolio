@@ -1,76 +1,85 @@
 .footer {
-    height: 40px;
-    padding: 20px 16px;
-    margin: 0px auto;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  height: 40px;
+  padding: 20px 16px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #181933;
 }
 
 .footer-left {
-    list-style-type: none;
-    display: flex; 
-    justify-content: center;
-    align-items: center;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer-left-item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 12px;
-    margin: 0 12px
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  margin: 0 12px;
 }
 
 .footer-left-icon {
-    overflow: hidden;
-    height: 24px;
+  overflow: hidden;
+  height: 24px;
 }
 
 .footer-left-icon .footer-left-icon-content {
-    height: 24px;
-    width: 24px;
-
+  height: 24px;
+  width: 24px;
+  background-color: #fff;
+  border-radius: 4px;
 }
 
 .footer-icon-spacial {
-    display: block;
+  display: block;
 }
 
 .footer-right {
-
 }
 
 .footer-right-text {
-    font-size: 20px;
-    font-weight: 700;
-    padding: 0px 20px;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 0px 20px;
+  color: #bfbebc;
+}
+
+.footer-right-subtext {
+  color: #fff;
+}
+
+.footer-right-subtext:hover {
+  color: rgb(114 226 174);
 }
 
 .footer-icon-animation-top {
-    animation: ani-changeIcon-top 0.5s linear forwards;
-    /* animation-play-state: paused; */
+  animation: ani-changeIcon-top 0.5s linear forwards;
+  /* animation-play-state: paused; */
 }
 
 .footer-icon-animation-down {
-    animation: ani-changeIcon-down 0.5s linear forwards;
+  animation: ani-changeIcon-down 0.5s linear forwards;
 }
 
-
 @keyframes ani-changeIcon-top {
-    from {
-        transform: translateY(0px);
-    }
-    to {
-        transform: translateY(-24px);
-    }
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-24px);
+  }
 }
 
 @keyframes ani-changeIcon-down {
-    from {
-        transform: translateY(-24px);
-    }
-    to {
-        transform: translateY(0px);
-    }
+  from {
+    transform: translateY(-24px);
+  }
+  to {
+    transform: translateY(0px);
+  }
 }
