@@ -1,0 +1,51 @@
+.section {
+    padding-top: 128px;
+    background-color: #181933
+}
+
+.section-container {
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+.section-title {
+    padding-bottom: 56px;
+}
+
+.section-title-heading {
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.section-title-loading {
+    height: 6px;
+    background-color: rgba(114, 226, 174 ,0.2);
+    max-width: 128px;
+    border-radius: 4px;
+    position: relative;
+    
+}
+
+.section-title-loading-dot {
+    position: absolute;
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    background-color: rgba(114 ,226, 174, 1);
+    animation: dot-running 3s ease-in-out infinite;
+}
+
+.section-title-heading-hidden {
+    
+}
+
+
+@keyframes dot-running {
+    from {
+        transform: translateX(0px);
+    }
+    to {
+        transform: translateX(128px);
+    }
+}
