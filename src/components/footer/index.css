@@ -9,22 +9,32 @@
 
 .footer-left {
     list-style-type: none;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
 }
 
 .footer-left-item {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 12px;
+    margin: 0 12px
 }
 
 .footer-left-icon {
-    height: 14px;
-    width: 14px;
+    overflow: hidden;
+    height: 24px;
 }
 
 .footer-left-icon .footer-left-icon-content {
-    display: inline-block;
-    font-size: 24px;
+    height: 24px;
+    width: 24px;
+
+}
+
+.footer-icon-spacial {
+    display: block;
 }
 
 .footer-right {
@@ -35,4 +45,32 @@
     font-size: 20px;
     font-weight: 700;
     padding: 0px 20px;
+}
+
+.footer-icon-animation-top {
+    animation: ani-changeIcon-top 0.5s linear forwards;
+    /* animation-play-state: paused; */
+}
+
+.footer-icon-animation-down {
+    animation: ani-changeIcon-down 0.5s linear forwards;
+}
+
+
+@keyframes ani-changeIcon-top {
+    from {
+        transform: translateY(0px);
+    }
+    to {
+        transform: translateY(-24px);
+    }
+}
+
+@keyframes ani-changeIcon-down {
+    from {
+        transform: translateY(-24px);
+    }
+    to {
+        transform: translateY(0px);
+    }
 }
