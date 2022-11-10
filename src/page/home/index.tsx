@@ -1,4 +1,4 @@
-import React, { MutableRefObject, useEffect, useRef, useState } from 'react';
+import React, { MutableRefObject, useEffect, useRef, useState , useCallback} from 'react';
 import Icon from '../../assets/icon/icon';
 import Footer from '../../components/footer';
 import Header from '../../components/header';
@@ -21,6 +21,10 @@ const Home = () => {
     });
     return () => destroy;
   }, [divRef]);
+
+  const renderData = useCallback(() => {
+
+  },[])
 
   useEffect(() => {
     let index = 0;
