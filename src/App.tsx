@@ -7,7 +7,7 @@ import Home from './page/home';
 function App() {
   return (
     <>
-    <BrowserRouter>
+    <BrowserRouter >
       <Routes>
         <Route path='/' element={<Home/>}  errorElement={<ErrorPage />}/>
         <Route path='/Blog' element={<Blog/>}  errorElement={<ErrorPage />}/>

@@ -98,6 +98,9 @@
     font-weight: 600;
 }
 
+.header-button:hover {
+    cursor: pointer;
+}
 
 @keyframes headerMoveBottom {
     from {

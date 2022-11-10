@@ -6,6 +6,7 @@ import linkedin from './linkedin.svg'
 import linkedinThin from './linkedin-thin.svg'
 import twitter from './twitter.svg'
 import twitterThin from './twitter-thin.svg'
+import scrollDown from './arrow-down-solid.svg'
 
 
 
@@ -17,7 +18,8 @@ const Icon = {
     linkedin:linkedin,
     linkedinThin:linkedinThin,
     twitter: twitter,
-    twitterThin:twitterThin
+    twitterThin:twitterThin,
+    scrollDown: scrollDown
 }
 
 
